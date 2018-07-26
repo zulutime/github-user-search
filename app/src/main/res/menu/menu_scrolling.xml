@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="io.arcblock.task.usersearcher.ScrollingActivity">
+    <item
+        android:id="@+id/action_followers_asc"
+        android:title="@string/menu_item_followers_asc"
+        android:checkable="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_followers_desc"
+        android:title="@string/menu_item_followers_desc"
+        android:checkable="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_repo_asc"
+        android:title="@string/menu_item_repositories_asc"
+        android:checkable="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_repo_desc"
+        android:title="@string/menu_item_repositories_desc"
+        android:checkable="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_joined_asc"
+        android:title="@string/menu_item_joined_asc"
+        android:checkable="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_joined_desc"
+        android:title="@string/menu_item_joined_desc"
+        android:checkable="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/clear_cache"
+        android:title="@string/clear_cache"
+        app:showAsAction="never" />
+
+</menu>
